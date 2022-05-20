@@ -1,0 +1,15 @@
+{
+  "name": "YouTube Speed",
+  "version": "1.0.0",
+  "description": "Speed videos on YouTube",
+  "manifest_version": 3,
+  "author": "Pedro Silva",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

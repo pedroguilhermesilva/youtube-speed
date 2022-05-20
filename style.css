@@ -1,0 +1,10 @@
+.speed-child {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+p.speed-text {
+  margin-right: 75%;
+  white-space: nowrap;
+}
